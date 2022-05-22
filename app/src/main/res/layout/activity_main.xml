@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/github_background"
+    android:onClick="openWebPage"
     tools:context=".MainActivity">
 
     <Button
