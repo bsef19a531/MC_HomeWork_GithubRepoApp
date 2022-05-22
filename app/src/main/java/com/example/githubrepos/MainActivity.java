@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openWebPage() {
-        Uri webpage = Uri.parse("");
+        Uri webpage = Uri.parse("https://github.com/bsef19a531");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
